@@ -15,7 +15,7 @@ function HomePage() {
                         I am a person who welcomes a challenge, I give it my all to complete any tasks the best way possible.
                         I enjoy learning new concepts and changes in software based technology. Im someone who enjoys and excels
                         working independantly or with a group of people. By the end of my bootcamp i will have the nessesary skills
-                        of a Full Stack Developer and incorportate them into the field.
+                        of a Full Stack Developer and incorportate them into the field..
                     </p>
                 </div>
 
