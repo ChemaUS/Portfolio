@@ -19,7 +19,31 @@ function App() {
                     {/* <button onClick={toggleDarkMode}>Toggle Mode</button> */}
                 </header>
                 <NavBar toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
+                <br></br>
+                <br></br>
                 <HomePage />
+            </div>
+            <div class="box">
+                <div>
+                </div>
+                <div>
+                </div>
+                <div>
+                </div>
+                <div>
+                </div>
+                <div>
+                </div>
+                <div>
+                </div>
+                <div>
+                </div>
+                <div>
+                </div>
+                <div>
+                </div>
+                <div>
+                </div>
             </div>
         </>
     )
