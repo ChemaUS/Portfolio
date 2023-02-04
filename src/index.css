@@ -27,6 +27,8 @@ p{
 h3{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+a{text-decoration:none;
+line-style:none}
 .box {
   width: 100%;
   z-index: -100;
@@ -138,14 +140,41 @@ nav ul li a:hover{
     color: var(--secondary-color);
     line-height: 30px;
 }
+.img-div{
+  border: transparent;
+  width: 43rem;
+  padding: 20px;
+  flex: none!important; 
+  box-shadow: 0 15px 25px hsl(0deg 2% 50% / 20%); 
+  border-radius: 5px;
+  -webkit-backdrop-filter: blur(14px); 
+  /* backdrop-filter: blur(14px); */
+  background-color: hsla(0,0%,100%,.2);
+  width:40rem;
+    z-index: 20;
+    height: 30rem;
+    filter: drop-shadow( 0 0 20px #00000080);
+    margin-right:30px;
+    margin-top:1px;
+    position:relative 
+ 
+}
 .body-img{
-    width:45rem;
+    width:40rem;
     z-index: 20;
     height: 30rem;
     filter: drop-shadow( 0 0 20px #00000080);
     margin-right:20px;
-    margin-top:15px;
-    position:relative
+    margin-top:1px;
+    border-radius: 5px;
+}
+.name-img{
+  width:8rem;
+  height:12rem;
+  position:absolute;
+  top:50px;
+  left:186px;
+  z-index:0;
 }
 
 #icon{
@@ -192,27 +221,56 @@ span{
 }
  .App{
     background-color: var(--bg-color);
-    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
     color: var(--text-color);
     transition: background-color 0.2s ease-out, color 0.2s ease-out;
- position:absolute;
- top:0;
- bottom:0;
- left:0;
- right:0
+    postion:absolute;
+    width:100%;
+    height:100%;
+    min-width:767px
   }
   .project-container{
-   /* width:20rem; */
-   /* border-color: var(--secondary-color); */
-   /* border:solid; */
-   /* margin: auto; */
-   /* margin-top:20px; */
-  /* width: 50%; */
+    border-color: var(--secondary-color); 
+  
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    grid-gap: 20px;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 10px;
+  }
+  .img-container{
+    border: transparent;
+    width: 100%;
+    padding: 20px;
+    flex: none!important; 
+    box-shadow: 0 15px 25px hsl(0deg 2% 50% / 20%); 
+    border-radius: 5px;
+    -webkit-backdrop-filter: blur(14px); 
+    background-color: hsla(0,0%,100%,.2);
+    max-width: 550px;
+   
+  }
+  .one{
+    display: flex;
+    flex-direction: column;
+  }
+  .two{
 
   }
+
+.source:hover{
+  background:#ff4321;
+  color:white;
+  border-radius: 5px;
+  text-decoration: none
+}
   .project-img{
-    height:100%;
-    width:100%
+  width:100%;
+  border-radius: 5px;
   }
   
   .light-mode {
@@ -228,7 +286,8 @@ span{
     height: 60px;
     width: 60px;
     position: absolute;
-    top: 10%;
+    top: 0;
+    bottom:0;
     left: 10%;
     animation: animate 15s linear infinite;
     border: 6px solid rgba(100,26,13,.5);
@@ -303,3 +362,4 @@ span{
     transform: scale(1.6) translateY(-250px) rotate(360deg);
     }
     }
+ @media screen and (min-width:767px)
