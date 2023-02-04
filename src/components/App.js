@@ -1,8 +1,10 @@
+import { useState } from "react"
 import HomePage from "./HomePage"
 import NavBar from "./NavBar"
-import Moon from "../Images/moon.png"
-import Sun from "../Images/sun.png"
-import { useState } from "react"
+import Project from "./Project"
+import React from "react"
+
+
 
 function App() {
     const [isDarkMode, setIsDarkMode] = useState(true);
@@ -16,7 +18,7 @@ function App() {
         <>
             <div className={`App ${isDarkMode ? 'dark-mode' : 'light-mode'}`} >
                 <header>
-                    {/* <button onClick={toggleDarkMode}>Toggle Mode</button> */}
+
                 </header>
                 <NavBar toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
                 <br></br>

@@ -16,9 +16,9 @@ function NavBar({ toggleDarkMode, setIsDarkMode, isDarkMode }) {
                 <div class="right-header">
                     <nav>
                         <ul>
-                            {/* <li><a href="">HOME</a></li> */}
+                            {/* <li><a href="">HOME</a></li>
                             <li><a href="">ABOUT</a></li>
-                            <li><a href="">PROJECTS</a></li>
+                            <li><a href="">PROJECTS</a></li> */}
                             <li><a href="https://docs.google.com/document/d/1FZks8TeDxF2_dTDqMSJ_uUlt_7tL0vKG_A7E4Efj5C4/edit">RESUME</a></li>
                         </ul>
                         <>
