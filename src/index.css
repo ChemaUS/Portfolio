@@ -52,7 +52,7 @@ line-style:none}
 
 .header{
     height: 85px;
-    Display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     position:relative;
@@ -94,17 +94,17 @@ h2{
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: end;
     padding: 20px 0;
     width: 85%;
     
 }
 .right-header{
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     flex-shrink: 0;
     margin-right: 150px;
-    width: 450px;
+    width: 150px;
     
 }
 nav ul{
